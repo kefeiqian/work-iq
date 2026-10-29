@@ -256,6 +256,14 @@ report that limitation instead of rebuilding the conversation with broad
 focused `fetch` for a concrete source URL/path returned by `ask`; do not loop
 back into `ask` or enumerate sites and drives.
 
+When summarizing status from `ask` or structured reads, preserve unresolved
+scope boundaries, dependencies, blockers, and ownership or approval conditions
+that materially change the conclusion. Do not drop these qualifiers merely
+to shorten a longer tool answer. Distinguish completed milestones from later
+pending stages; report unconfirmed completion or approval as unknown, not as
+a confirmed positive or negative state. Keep dated source citations for these
+qualifiers, and do not revive historical actions as current without evidence.
+
 For detailed usage and examples, read `references/ask-work-iq.md`.
 
 ---
